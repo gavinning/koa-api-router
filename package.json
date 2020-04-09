@@ -1,0 +1,24 @@
+{
+  "name": "koa-api-router",
+  "version": "0.1.0",
+  "description": "koa-api-router",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gavinning/koa-api-router.git"
+  },
+  "keywords": [
+    "koa",
+    "koa-router",
+    "koa-api-router"
+  ],
+  "author": "gavinning",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gavinning/koa-api-router/issues"
+  },
+  "homepage": "https://github.com/gavinning/koa-api-router#readme"
+}
