@@ -1,5 +1,5 @@
 {
-  "name": "koa-api-router",
+  "name": "@4a/koa-api-router",
   "version": "0.1.0",
   "description": "koa-api-router",
   "main": "index.js",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/gavinning/koa-api-router/issues"
   },
-  "homepage": "https://github.com/gavinning/koa-api-router#readme"
+  "homepage": "https://github.com/gavinning/koa-api-router#readme",
+  "dependencies": {
+    "debug": "^4.1.1",
+    "koa-router": "^8.0.8"
+  }
 }
