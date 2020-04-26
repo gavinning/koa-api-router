@@ -1,6 +1,6 @@
 {
   "name": "@4a/koa-api-router",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "koa-api-router",
   "main": "index.js",
   "scripts": {
@@ -22,7 +22,7 @@
   },
   "homepage": "https://github.com/gavinning/koa-api-router#readme",
   "dependencies": {
-    "debug": "^4.1.1",
-    "koa-router": "^8.0.8"
+    "@koa/router": "^8.0.8",
+    "debug": "^4.1.1"
   }
 }
