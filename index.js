@@ -51,7 +51,7 @@ class Router extends KoaRouter {
         Object.keys(routes).forEach(route => {
             const params = routes[route]
             const { method, path, key } = decipher(route)
-            this[method](path, factory(params, this.after), resolver[key])
+            this[method](path, factory(params, this.after), resolver[key].bind(resolver))
         })
     }
 

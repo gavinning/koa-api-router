@@ -1,6 +1,6 @@
 {
   "name": "@4a/koa-api-router",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "koa-api-router",
   "main": "index.js",
   "scripts": {
