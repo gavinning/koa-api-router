@@ -37,6 +37,10 @@ function factory(pre, after) {
     }
 }
 
+function isApplicationJSON(type) {
+    return type.includes('application/json')
+}
+
 class Router extends KoaRouter {
     constructor() {
         super(...arguments)
@@ -81,8 +85,12 @@ class Router extends KoaRouter {
             }
         }
         // 此处可收集异常响应，或执行异常响应上报等操作
-        else if (!ctx.body || ctx.body.code !== 0) {
-            debug('Exception Response:', ctx.body)
+        else if (!ctx.body) {
+            debug('Unexpected Response:', ctx.body)
+        }
+        // 此处可收集异常响应，或执行异常响应上报等操作
+        else if (isApplicationJSON(ctx.type) && ctx.body.code !== 0) {
+            debug('Unexpected Response:', ctx.body)
         }
     }
 

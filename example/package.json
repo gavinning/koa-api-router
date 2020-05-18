@@ -1,0 +1,18 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "DEBUG=Koa-api-router nodemon index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@4a/enum": "^0.4.1",
+    "koa": "^2.12.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "nodemon": "^2.0.4"
+  }
+}
